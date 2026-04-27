@@ -16,7 +16,7 @@ export default function Home() {
   </p>
   {/* زر واتساب */}
 
-  <a href="https://wa.me/3187657884?text=مرحباً%2C%20جربت%20تطبيق%20Bac%20English%20وأريد%20أشاركك%20رأيي..."
+  <a href="https://wa.me/31687657884?text=مرحباً%2C%20جربت%20تطبيق%20Bac%20English%20وأريد%20أشاركك%20رأيي..."
   target="_blank"
   rel="noopener noreferrer"
   className="flex items-center justify-center gap-2 bg-green-700 hover:bg-green-600 transition-colors rounded-2xl p-4 mb-6 text-center"
