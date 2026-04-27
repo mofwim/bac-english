@@ -1,6 +1,7 @@
 export { unit1 } from './unit1';
 export { unit2 } from './unit2';
 export { unit3 } from './unit3';
+export { unit4 } from './unit4';
 
 export const units = [
   {
@@ -21,6 +22,13 @@ export const units = [
     id: 'unit3',
     title: 'Unit 3',
     subtitle: 'Medicine',
+    sections: 5,
+    free: true,
+  },
+  {
+    id: 'unit4',
+    title: 'Unit 4',
+    subtitle: 'Engineering',
     sections: 5,
     free: true,
   },
