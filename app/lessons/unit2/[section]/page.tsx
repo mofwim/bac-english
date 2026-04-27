@@ -71,7 +71,7 @@ export default function SectionPage({
               }`}
             >
               {/* الجملة من الكتاب */}
-<p className="text-gray-400 text-sm mb-4 leading-relaxed font-mono bg-gray-800 rounded-xl p-3 border-r-4 border-purple-500">
+<p className="text-white text-sm mb-4 leading-relaxed font-mono bg-gray-800 rounded-xl p-3 border-r-4 border-purple-500">
   "{q.sentence}"
 </p>
 
