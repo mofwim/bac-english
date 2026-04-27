@@ -6,7 +6,14 @@ export default function Home() {
   return (
     <main className="min-h-screen bg-gray-950 text-white p-6" dir="rtl">
       <div className="max-w-2xl mx-auto">
-
+{/* رسالة النسخة التجريبية */}
+<div className="bg-yellow-900/30 border border-yellow-700 rounded-2xl p-4 mb-6 text-center">
+  <p className="text-yellow-400 text-xs font-bold mb-1">🚧 نسخة تجريبية مجانية</p>
+  <p className="text-yellow-200 text-xs leading-relaxed">
+    هذا التطبيق في مرحلة الإطلاق التجريبي — المحتوى الكامل لجميع الوحدات قادم قريباً.
+    جرّب الآن مجاناً وشاركنا رأيك!
+  </p>
+</div>
         {/* الرأس */}
         <div className="mb-10 text-center">
           <p className="text-purple-400 text-sm font-bold tracking-widest uppercase mb-2">
