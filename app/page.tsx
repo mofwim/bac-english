@@ -12,7 +12,21 @@ export default function Home() {
   <p className="text-yellow-200 text-xs leading-relaxed">
     هذا التطبيق في مرحلة الإطلاق التجريبي — المحتوى الكامل لجميع الوحدات قادم قريباً.
     جرّب الآن مجاناً وشاركنا رأيك!
+    
   </p>
+  {/* زر واتساب */}
+
+  <a href="https://wa.me/3187657884?text=مرحباً%2C%20جربت%20تطبيق%20Bac%20English%20وأريد%20أشاركك%20رأيي..."
+  target="_blank"
+  rel="noopener noreferrer"
+  className="flex items-center justify-center gap-2 bg-green-700 hover:bg-green-600 transition-colors rounded-2xl p-4 mb-6 text-center"
+>
+  <span className="text-xl">💬</span>
+  <div>
+    <p className="text-white text-sm font-bold">شاركنا رأيك</p>
+    <p className="text-green-200 text-xs">رأيك يساعدنا نحسّن التطبيق</p>
+  </div>
+</a>
 </div>
         {/* الرأس */}
         <div className="mb-10 text-center">
