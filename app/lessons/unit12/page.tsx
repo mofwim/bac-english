@@ -33,7 +33,7 @@ export default function Unit12Page() {
                 <div>
                   <p className="text-purple-400 text-xs font-bold mb-1">نمط الامتحان الحقيقي 2025-2026</p>
                   <h2 className="text-base font-bold mb-1">📝 تدرّب على الامتحان</h2>
-                  <p className="text-gray-400 text-sm">10 أقسام — AI يصحح فوراً</p> // 
+                  <p className="text-gray-400 text-sm">10 أقسام — AI يصحح فوراً</p> 
                 </div>
                 <div className="text-2xl">←</div>
               </div>
