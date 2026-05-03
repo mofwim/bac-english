@@ -8,7 +8,7 @@ export default function Unit10Page() {
       <div className="max-w-2xl mx-auto">
         <Link href="/" className="text-purple-400 text-sm mb-6 block">→ العودة للرئيسية</Link>
         <p className="text-purple-400 text-sm font-bold tracking-widest uppercase mb-2">Unit 10</p>
-        <h1 className="text-2xl font-bold mb-1">Human Body</h1>
+        <h1 className="text-2xl font-bold mb-1">Culture Shock</h1>
         <p className="text-gray-400 text-sm mb-8">اختر القسم الذي تريد دراسته</p>
         <div className="space-y-4">
           {unit10.sections.map((section) => (
