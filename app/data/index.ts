@@ -6,7 +6,11 @@ export { unit5 } from './unit5';
 export { unit6 } from './unit6';
 export { unit7 } from './unit7';
 export { unit8 } from './unit8';
-
+export { unit9 } from './unit9';
+export { unit10 } from './unit10';
+export { unit11 } from './unit11';
+export { unit12 } from './unit12';
+// we need to change the titles for units 9  10 11 and 12 also number of sections
 export const units = [
   {
     id: 'unit1',
@@ -61,6 +65,34 @@ export const units = [
     id: 'unit8',
     title: 'Unit 8',
     subtitle: 'Human Body',
+    sections: 5,
+    free: true,
+  },
+  {
+    id: 'unit9',
+    title: 'Unit 9',
+    subtitle: 'Citizenship',
+    sections: 5,
+    free: true,
+  },
+  {
+    id: 'unit10',
+    title: 'Unit 10',
+    subtitle: 'Culture Shock',
+    sections: 5,
+    free: true,
+  },
+  {
+    id: 'unit11',
+    title: 'Unit 11',
+    subtitle: 'Artificial Intelligence',
+    sections: 5,
+    free: true,
+  },
+  {
+    id: 'unit12',
+    title: 'Unit 12',
+    subtitle: 'Digital Literacy',
     sections: 5,
     free: true,
   },
