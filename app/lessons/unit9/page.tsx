@@ -9,6 +9,22 @@ export default function Unit9Page() {
         <Link href="/" className="text-purple-400 text-sm mb-6 block">→ العودة للرئيسية</Link>
         <p className="text-purple-400 text-sm font-bold tracking-widest uppercase mb-2">Unit 9</p>
         <h1 className="text-2xl font-bold mb-1">Citizenship</h1>
+        <div className="mt-6">
+          <p className="text-gray-500 text-xs font-bold tracking-widest uppercase mb-3">التدريب على الامتحان</p>
+          <Link href="/lessons/unit9/exam">
+            <div className="bg-gray-900 hover:bg-gray-800 transition-colors rounded-2xl p-5 border border-purple-800 hover:border-purple-500 cursor-pointer">
+              <div className="flex items-center justify-between">
+                <div>
+                  <p className="text-purple-400 text-xs font-bold mb-1">نمط الامتحان الحقيقي 2025-2026</p>
+                  <h2 className="text-base font-bold mb-1">📝 تدرّب على الامتحان</h2>
+                  <p className="text-gray-400 text-sm">10 أقسام — AI يصحح فوراً</p>
+                </div>
+                <div className="text-2xl">←</div>
+              </div>
+            </div>
+          </Link>
+        </div>
+        <br/>
         <p className="text-gray-400 text-sm mb-8">اختر القسم الذي تريد دراسته</p>
         <div className="space-y-4">
           {unit9.sections.map((section) => (
@@ -25,21 +41,7 @@ export default function Unit9Page() {
             </Link>
           ))}
         </div>
-        <div className="mt-6">
-          <p className="text-gray-500 text-xs font-bold tracking-widest uppercase mb-3">التدريب على الامتحان</p>
-          <Link href="/lessons/unit9/exam">
-            <div className="bg-gray-900 hover:bg-gray-800 transition-colors rounded-2xl p-5 border border-purple-800 hover:border-purple-500 cursor-pointer">
-              <div className="flex items-center justify-between">
-                <div>
-                  <p className="text-purple-400 text-xs font-bold mb-1">نمط الامتحان الحقيقي 2025-2026</p>
-                  <h2 className="text-base font-bold mb-1">📝 تدرّب على الامتحان</h2>
-                  <p className="text-gray-400 text-sm">10 أقسام — AI يصحح فوراً</p>
-                </div>
-                <div className="text-2xl">←</div>
-              </div>
-            </div>
-          </Link>
-        </div>
+        
       </div>
     </main>
   );
